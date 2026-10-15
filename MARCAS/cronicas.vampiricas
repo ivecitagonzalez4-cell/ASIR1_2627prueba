@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> <meta charset="UTF-8"> 
+        <title> Crónicas Vampíricas - Índice</title>
+    </head>
+    <body bgcolor="#0F0303" text="#FFFFFF" link="#FF4D4D" vlink="#FF4D4D"> 
+        <div align="center"> 
+            <h1>The Vampire Diaries </h1> 
+            <h3>El amor es la mayor debilidad</h3> 
+            <hr width="80%"> 
+            <th><h1>Bienvenidos a Mystic Falls, un pueblo donde supuestamente nunca pasa nada malo</h1>
+            </th> <!-- Tabla central para el menú de navegación -->
+            <table align="center" border="2px" cellpadding="12"> <tr> 
+                <th>ÍNDICE</th> </tr> <tr> <td><a href="#tabla-personajes">1. Galería en Bloque - Personajes</a></td> 
+                </tr> 
+                <tr> 
+                    <td><a href="#Galería Vertical - Crónicas Vampíricas">2.Galería Vertical - Crónicas Vampíricas</a>
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td><a href="galeria_mixta.html">3. Disposición Mixta y Multimedia</a></td> 
+                </tr>
+            </table><!-- Espacio o salto de línea opcional para separar el menú de la galería -->
+            <br><br><!-- Aquí empieza tu tabla de personajes con su ID correspondiente -->
+            <div align="center"> <table id="tabla-personajes" align="center" border="1" cellpadding="10"> 
+                <title>Galería en Bloque - Personajes</title></head><body bgcolor="#0F0303" text="#FFFFFF" link="#FF4D4D" vlink="#FF4D4D"> 
+                    <h1>Galería de Personajes - Crónicas Vampíricas</h1> 
+                    <hr width="80%"> <br> <!-- Tabla de la Cuadrícula 2x3 --> 
+                    <table <!-- FILA 1 --> <tr> <td align="center"> 
+                        <a href="https://media.tenor.com/V29hgfs2C6kAAAAM/elena-gilbert-nina.gif" target="_blank"> 
+                            <img src="https://media.tenor.com/V29hgfs2C6kAAAAM/elena-gilbert-nina.gif" width="400" height="400" alt="Elena Gilbert" border="5" cellpadding="10"> 
+                        </a> <br><b>Elena Gilbert</b> 
+                    </td> 
+                    <td align="center"> 
+                        <a href="https://media.tenor.com/olpc59yAaXQAAAAM/wink-blink.gif" target="_blank"> 
+                        <img src="https://media.tenor.com/olpc59yAaXQAAAAM/wink-blink.gif" width="400" height="400" alt="Damon Salvatore" border="5" cellpadding="10">
+                     </a> <br><b>Damon Salvatore</b> 
+                    </td> 
+                </tr> <!-- FILA 2 --> 
+                <tr> 
+                    <td align="center"> 
+                        <a href="https://media.tenor.com/RdnYZ9OG5pwAAAAM/stefan-salvatore.gif" target="_blank"> 
+                            <img src="https://media.tenor.com/RdnYZ9OG5pwAAAAM/stefan-salvatore.gif" width="400" height="400" alt="Stefan Salvatore" border="5" cellpadding="10"> 
+                        </a> <br><b>Stefan Salvatore</b> 
+                    </td> 
+                    <td align="center"> 
+                        <a href="https://i.pinimg.com/originals/ad/35/08/ad35088db804de51c078545572acd299.gif" target="_blank"> 
+                            <img src="https://i.pinimg.com/originals/ad/35/08/ad35088db804de51c078545572acd299.gif" width="400" height="400" alt="Caroline Forbes" border="5" cellpadding="10"> 
+                        </a> <br><b>Caroline Forbes</b> 
+                    </td> <!-- FILA 3 --> <tr> <td align="center"> 
+                        <a href="https://media.tenor.com/ZfPfiXgwQ1cAAAAM/niklaus-mikaelson-klaus.gif" target="_blank"> 
+                            <img src="https://media.tenor.com/ZfPfiXgwQ1cAAAAM/niklaus-mikaelson-klaus.gif" width="400" height="400" alt="Niklaus Mikaelson" border="5" cellpadding="10"> 
+                        </a> <br><b>Niklaus Mikaelson</b> 
+                    </td> <td align="center"> 
+                        <a href="https://media.tenor.com/ICNox47ecwwAAAAM/perfectly-splendid.gif" target="_blank"> 
+                            <img src="https://media.tenor.com/ICNox47ecwwAAAAM/perfectly-splendid.gif" width="400" height="400" alt="Bonnier Bennett" border="5" cellpadding="10"> 
+                        </a> <br><b>Bonnie Bennett</b>
+                    </td> 
+                    </tr> 
+                </table> 
+                <br><br> <hr width="80%"> 
+            </div>
+            <!DOCTYPE html>
+            <html lang="es">
+                <head> <meta charset="UTF-8"> 
+                    <title>Galería Vertical - Crónicas Vampíricas</title>
+                </head>
+                <body> 
+                        <h1 align="center">Galería Vertical - Crónicas Vampíricas</h1> 
+                        <p align="center"><a href="index.html">Volver al Índice Principal</a></p> 
+                        <hr> <!-- Tabla vertical de 3 filas x 1 columna --> 
+                        <table align="center" border="2px" cellpadding="15"> <!-- Foto 1 --> 
+                            <tr> 
+                                <td align="center"> <a href="https://static.wikia.nocookie.net/vampirediaries/images/0/03/Stefan-Damon-816.gif/revision/latest?cb=20170501221808&path-prefix=es" target="_blank"> 
+                                    <img src="https://static.wikia.nocookie.net/vampirediaries/images/0/03/Stefan-Damon-816.gif/revision/latest?cb=20170501221808&path-prefix=es" width="500px" height="300px" alt="Crónicas Vampíricas 1"> 
+                                </a> 
+                                <br><br><strong>Escena 1:</strong> Stefan y Damon Salvatore en la pensión de Mystic Falls. 
+                            </td> 
+                        </tr> <!-- Foto 2 --> <tr> <td align="center"> 
+                            <a href="https://static.wikia.nocookie.net/vampirediaries/images/a/a7/4x06-11.jpg/revision/latest/scale-to-width-down/250?cb=20121031001857" target="_blank"> 
+                                <img src="https://static.wikia.nocookie.net/vampirediaries/images/a/a7/4x06-11.jpg/revision/latest/scale-to-width-down/250?cb=20121031001857" width="500px" height="300px" alt="Crónicas Vampíricas 2"> 
+                            </a> <br><br><strong>Escena 2:</strong> Elena Gilbert en el puente Wickery. 
+                        </td> 
+                    </tr> <!-- Foto 3 --> 
+                    <tr> <td align="center"> <a href="https://preview.redd.it/delena-dances-v0-2icft6r5p77b1.jpg?width=739&format=pjpg&auto=webp&s=308a893f113e458b822a96bf4976cfd2f42e3802" target="_blank"> 
+                        <img src="https://preview.redd.it/delena-dances-v0-2icft6r5p77b1.jpg?width=739&format=pjpg&auto=webp&s=308a893f113e458b822a96bf4976cfd2f42e3802" width="500px" height="300px" alt="Crónicas Vampíricas 3"> 
+                    </a> <br><br><strong>Escena 3:</strong> Un baile de fundadores en Mystic Falls. 
+                </td> 
+            </tr> </table><html lang="es"><head> <meta charset="UTF-8"> 
+                <title>Galería Mixta - Crónicas Vampíricas
+
+                </title></head><body> <h2 align="center">Álbum 3: Estructura Mixta y Banda Sonora</h2> 
+                    <p align="center"><a href="index.html">Volver al Índice PrincipaL</a></p> 
+                    <hr> <!-- Tabla con celdas combinadas mediante colspan --> 
+                    <table align="center" border="2px" cellpadding="15" width="700px"> 
+                        <!-- Fila Superior: Dos columnas con imágenes --> 
+                         <tr> 
+                            <td align="center" width="50%"> 
+                                <a href="https://i.pinimg.com/originals/4e/13/38/4e1338275ff8e69430234d8d95837be4.gif" target="_blank"> 
+                                    <img src="https://i.pinimg.com/originals/4e/13/38/4e1338275ff8e69430234d8d95837be4.gif" width="500px" height="300px" alt="Elena Gilbert"> </a> <br><span>Elena Gilbert en Mystic Falls</span> </td> <td align="center" width="50%"> <a href="https://i.pinimg.com/originals/96/e0/c0/96e0c0132f63d8aeedbdcb64427d0a3a.gif" target="_blank"> <img src="https://i.pinimg.com/originals/96/e0/c0/96e0c0132f63d8aeedbdcb64427d0a3a.gif" width="500px" height="300px" alt="Hermanos Salvatore"> </a> <br><span>Damon y Stefan Salvatore</span> </td> </tr> <!-- Fila Inferior: Ocupa las 2 columnas para poner la música de ambiente --> <tr> <td colspan="2" align="center"> <H1>Ambientación Multimedia de la Serie </H1> <br><br> <!-- Comando de Audio (Usa tu archivo local a.mp3) -->
