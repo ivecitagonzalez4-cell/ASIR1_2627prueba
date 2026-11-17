@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faceless Tech - Biometric Deepfakes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Paleta exacta de Coolors: #c9cba3, #ffe1a8, #e26d5c, #723d46, #472d30 */
+        :root {
+            --bs-dark-rgb: 71, 45, 48;        /* #472d30 -> Fondo principal */
+            --bs-secondary-rgb: 114, 61, 70;  /* #723d46 -> Tarjetas y bloques */
+            --bs-info-rgb: 255, 225, 168;     /* #ffe1a8 -> Títulos y acentos */
+            --bs-light-rgb: 201, 203, 163;    /* #c9cba3 -> Textos generales */
+            --bs-danger-rgb: 226, 109, 92;    /* #e26d5c -> Botones y alertas */
+        }
+
+        body {
+            background-color: #472d30;
+            color: #c9cba3;
+            background-image: radial-gradient(rgba(201, 203, 163, 0.08) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+
+        .bg-deep-wine {
+            background-color: #362023;
+        }
+
+        .text-cream { color: #ffe1a8 !important; }
+        .text-sage { color: #c9cba3 !important; }
+        .text-coral { color: #e26d5c !important; }
+        .bg-plum { background-color: #723d46 !important; }
+        .border-plum { border-color: #723d46 !important; }
+        .border-cream { border-color: #ffe1a8 !important; }
+        .border-coral { border-color: #e26d5c !important; }
+
+        /* Efectos creativos de tarjetas y presentación */
+        .slide-card {
+            background-color: #723d46;
+            border: 1px solid rgba(255, 225, 168, 0.25);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .slide-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4) !important;
+            border-color: #ffe1a8;
+        }
+
+        .btn-coral {
+            background-color: #e26d5c;
+            color: #ffe1a8;
+            border: 2px solid #e26d5c;
+            transition: all 0.25s ease;
+        }
+
+        .btn-coral:hover {
+            background-color: transparent;
+            color: #ffe1a8;
+            border-color: #ffe1a8;
+        }
+
+        /* Onda sonora decorativa en CSS puro */
+        .soundwave-bar {
+            display: inline-block;
+            width: 5px;
+            background-color: #e26d5c;
+            border-radius: 3px;
+            margin: 0 2px;
+        }
+
+        /* Marco estilo escáner biométrico sobre la foto */
+        .biometric-frame {
+            position: relative;
+            border: 2px solid #ffe1a8;
+            padding: 8px;
+            background-color: #362023;
+        }
+
+        .navbar-nav .nav-link {
+            color: #c9cba3;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ffe1a8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación estilo presentación -->
+    <nav class="navbar navbar-expand-lg bg-deep-wine border-bottom border-plum sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-cream" href="index.html">
+                ◉ FACELESS TECH <span class="badge bg-plum text-cream fw-normal ms-1">PODCAST</span>
+            </a>
+            <div class="navbar-nav ms-auto flex-row gap-3">
+                <a class="nav-link" href="IndicePodcast.html">Home</a>
+                <a class="nav-link" href="#slide-cover">01. Episode</a>
+                <a class="nav-link" href="#slide-dialogue">02. Key Moments</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+
+        <!-- DIAPOSITIVA 1: PORTADA E INICIO -->
+        <section id="slide-cover" class="p-4 p-md-5 rounded-4 bg-deep-wine border border-plum shadow-lg mb-5">
+            <div class="row g-4 align-items-center">
+                
+                <!-- Columna izquierda: Titular e Impacto -->
+                <div class="col-lg-7">
+                    <div class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-plum text-cream small fw-bold mb-3">
+                        <span class="me-2">● ON AIR</span> | 9:00 MIN SPECIAL EPISODE
+                    </div>
+                    
+                    <h1 class="display-4 fw-bold text-cream mb-3">
+                        THE DANGER OF <span class="text-coral">BIOMETRIC</span> DEEPFAKES
+                    </h1>
+                    
+                    <p class="lead text-sage mb-4">
+                        For years, we thought our faces and voices were the ultimate keys to digital safety. What happens when Artificial Intelligence learns how to steal them?
+                    </p>
+
+                    <!-- Onda de audio visual creativa -->
+                    <div class="d-flex align-items-center mb-4 p-3 rounded-3 bg-dark border border-plum">
+                        <div class="me-3">
+                            <span class="soundwave-bar" style="height: 14px;"></span>
+                            <span class="soundwave-bar" style="height: 26px;"></span>
+                            <span class="soundwave-bar" style="height: 18px;"></span>
+                            <span class="soundwave-bar" style="height: 32px;"></span>
+                            <span class="soundwave-bar" style="height: 22px;"></span>
+                            <span class="soundwave-bar" style="height: 12px;"></span>
+                        </div>
+                        <div class="small text-sage">
+                            <strong class="text-cream d-block">Ready to listen to the full investigation?</strong>
+                            Click below to launch the episode audio player.
+                        </div>
+                    </div>
+
+                    <a href="P0301.html" class="btn btn-coral btn-lg px-5 py-3 fw-bold rounded-pill shadow">
+                        ▶ Listen Now!
+                    </a>
+                </div>
+
+             
+                <div class="col-lg-5">
+                    <div class="biometric-frame rounded-4 shadow-lg">
+                        <div class="d-flex justify-content-between text-cream small font-monospace mb-2 px-1">
+                            <span>[ID_SCAN: ACTIVE]</span>
+                            <span class="text-coral">● CLONE DETECTED</span>
+                        </div>
+                        <img src="https://www.comunicare.es/wp-content/uploads/2021/07/ciberseguridad-redes-sociales.jpg" 
+                             class="img-fluid rounded-3" 
+                             alt="Cybersecurity and Social Media Biometrics">
+                        <div class="mt-2 pt-2 border-top border-plum d-flex justify-content-between small font-monospace text-sage">
+                            <span>VOICE SAMPLE: 3.0 SEC</span>
+                            <span>ACCURACY: 99.4%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+       
+        <section id="slide-dialogue" class="mb-5">
+            <div class="text-center mb-4">
+                <span class="badge bg-plum text-cream px-3 py-2 rounded-pill mb-2">EPISODE TIMELINE & HIGHLIGHTS</span>
+                <h2 class="fw-bold text-cream">Dialogue Breakdown & Real Anecdotes</h2>
+                <p class="text-sage">Four critical moments from our studio conversation</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Recuadro 1 -->
+                <div class="col-md-6">
+                    <div class="card slide-card h-100 rounded-4 p-3 shadow">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge bg-deep-wine text-cream font-monospace">01:15 - 03:30</span>
+                                <span class="text-coral fw-bold small">BIOMETRIC THEFT</span>
+                            </div>
+                            <h4 class="card-title fw-bold text-cream">The 3-Second Voice Blueprint</h4>
+                            <p class="card-text text-sage">
+                                Blanca explains how generative AI converts pitch, tone, and facial geometry into digital data. Every TikTok, Instagram story, or voicemail gives hackers enough raw material to clone your voice in seconds.
+                            </p>
+                            <div class="p-2 rounded bg-deep-wine border-start border-4 border-coral small fst-italic text-cream">
+                                "With just a short 3-second sample, AI can make you say absolutely anything." — Blanca Prada
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="col-md-6">
+                    <div class="card slide-card h-100 rounded-4 p-3 shadow">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge bg-deep-wine text-cream font-monospace">03:30 - 05:30</span>
+                                <span class="text-coral fw-bold small">REAL-WORLD RISKS</span>
+                            </div>
+                            <h4 class="card-title fw-bold text-cream">Fake CFOs & Bank Frauds</h4>
+                            <p class="card-text text-sage">
+                                Hackers bypass bank voice verification systems and infiltrate live corporate Zoom calls. By overlaying an executive's face and voice in real time, criminals trick employees into wiring urgent funds.
+                            </p>
