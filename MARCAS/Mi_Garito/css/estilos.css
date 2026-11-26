@@ -1,0 +1,53 @@
+:root{
+  --black:#100d0b;--panel:#1c1713;--gold:#d8b46a;--gold-light:#f3dfaa;
+  --cream:#f5eee2;--muted:#c6b9a5;--wine:#641f2b;--line:rgba(216,180,106,.28)
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--black);color:var(--cream);font-family:Georgia,'Times New Roman',serif;line-height:1.65}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.navbar{position:sticky;top:0;z-index:20;background:rgba(16,13,11,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:1180px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:1.25rem;letter-spacing:.18em;color:var(--gold-light);white-space:nowrap}
+.nav-links{display:flex;gap:20px;flex-wrap:wrap;font: .88rem Arial,sans-serif;color:var(--muted)}
+.nav-links a:hover,.nav-links a.active{color:var(--gold-light)}
+.menu-toggle{display:none;background:none;color:var(--gold);border:1px solid var(--line);padding:7px 11px}
+.container{width:min(1120px,calc(100% - 40px));margin:auto}
+.hero{min-height:78vh;display:grid;align-items:center;background:linear-gradient(90deg,rgba(12,9,8,.88),rgba(12,9,8,.35)),url('../img/portada-les-rennes.png') center/cover}
+.hero-content{max-width:720px;padding:90px 0}
+.eyebrow{color:var(--gold);font: .78rem Arial,sans-serif;letter-spacing:.28em;text-transform:uppercase}
+h1,h2,h3{font-weight:400;line-height:1.15}
+h1{font-size:clamp(3rem,8vw,6.7rem);margin:15px 0;color:var(--gold-light)}
+h2{font-size:clamp(2rem,4vw,3.4rem);color:var(--gold-light);margin:0 0 18px}
+h3{font-size:1.5rem;color:var(--gold-light)}
+p{color:var(--muted)}
+.btn{display:inline-block;padding:12px 24px;border:1px solid var(--gold);color:var(--gold-light);font: .82rem Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin:10px 10px 0 0;transition:.2s}
+.btn:hover{background:var(--gold);color:var(--black)}
+.btn.filled{background:var(--gold);color:var(--black)}
+.section{padding:82px 0}
+.section.alt{background:#17120f}
+.center{text-align:center}
+.lead{font-size:1.15rem;max-width:760px;margin:0 auto 28px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--panel);border:1px solid var(--line);padding:28px}
+.card .number{font-size:2rem;color:var(--gold)}
+.card p{margin-bottom:0}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.photo-frame{border:1px solid var(--line);padding:10px}
+.photo-frame img{width:100%;height:420px;object-fit:cover}
+.tag{display:inline-block;color:var(--gold);border:1px solid var(--line);padding:4px 10px;margin:4px;font: .75rem Arial,sans-serif}
+.menu-item{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding:16px 0}
+.menu-item strong{color:var(--gold-light);font-weight:400}
+.menu-item span{color:var(--gold)}
+.form{max-width:720px;margin:auto;background:var(--panel);padding:30px;border:1px solid var(--line)}
+label{display:block;color:var(--gold-light);margin:14px 0 6px}
+input,select,textarea{width:100%;padding:13px;background:#100d0b;border:1px solid var(--line);color:var(--cream);font:1rem Arial,sans-serif}
+textarea{min-height:110px}
+.notice{padding:14px;border-left:3px solid var(--gold);background:#211a14;color:var(--muted);margin:20px 0}
+.result{font-size:1.4rem;color:var(--gold-light);padding:18px 0}
+.footer{border-top:1px solid var(--line);padding:35px 0;text-align:center;color:var(--muted);font: .85rem Arial,sans-serif}
+.footer strong{color:var(--gold)}
+.faq details{padding:18px 0;border-bottom:1px solid var(--line)}
+.faq summary{color:var(--gold-light);cursor:pointer}
+@media(max-width:800px){.grid{grid-template-columns:1fr 1fr}.split{grid-template-columns:1fr}.nav-inner{align-items:flex-start}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:60px;left:0;right:0;padding:20px;background:#100d0b;flex-direction:column}.nav-links.open{display:flex}.hero{min-height:70vh}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.section{padding:60px 0}.hero-content{padding:70px 0}.brand{font-size:1rem}.photo-frame img{height:300px}}
